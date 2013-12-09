@@ -4,9 +4,6 @@
 
 module system_stub
   (
-    SWs_8Bits_TRI_IO,
-    LEDs_8Bits_TRI_IO,
-    BTNs_5Bits_TRI_IO,
     processing_system7_0_MIO,
     processing_system7_0_PS_SRSTB,
     processing_system7_0_PS_CLK,
@@ -29,9 +26,6 @@ module system_stub
     processing_system7_0_DDR_VRN,
     processing_system7_0_DDR_VRP
   );
-  inout [7:0] SWs_8Bits_TRI_IO;
-  output [7:0] LEDs_8Bits_TRI_IO;
-  inout [4:0] BTNs_5Bits_TRI_IO;
   inout [53:0] processing_system7_0_MIO;
   input processing_system7_0_PS_SRSTB;
   input processing_system7_0_PS_CLK;
@@ -57,9 +51,6 @@ module system_stub
   (* BOX_TYPE = "user_black_box" *)
   system
     system_i (
-      .SWs_8Bits_TRI_IO ( SWs_8Bits_TRI_IO ),
-      .LEDs_8Bits_TRI_IO ( LEDs_8Bits_TRI_IO ),
-      .BTNs_5Bits_TRI_IO ( BTNs_5Bits_TRI_IO ),
       .processing_system7_0_MIO ( processing_system7_0_MIO ),
       .processing_system7_0_PS_SRSTB ( processing_system7_0_PS_SRSTB ),
       .processing_system7_0_PS_CLK ( processing_system7_0_PS_CLK ),
