@@ -9,8 +9,20 @@
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/edk/system/system_stub.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/edk/system/system_stub.v"/>
+        <Attr Name="ImportTime" Val="1386624320"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="system_stub"/>
+      <Option Name="TopLib" Val="work"/>
+      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/edk/system/system_stub.v"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
