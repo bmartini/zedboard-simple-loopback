@@ -1,0 +1,7 @@
+##############################################################################
+## Filename:          /home/weldon/d/berin/work/vision/zynq-system/zedboard-loopback/project-simple-loopback/simple-loopback.srcs/sources_1/edk/system/pcores/loopback_v1_00_a/data/loopback_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Dec  9 15:58:51 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib loopback_v1_00_a loopback verilog
